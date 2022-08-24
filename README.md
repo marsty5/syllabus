@@ -11,6 +11,8 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Install NVM with brew](https://tecadmin.net/install-nvm-macos-with-homebrew/)
+** When installing nvm choose the v4.0.0 version -> `nvm install v4.0.0`
 
 ## Installation
 
