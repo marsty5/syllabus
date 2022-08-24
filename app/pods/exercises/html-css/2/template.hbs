@@ -1,0 +1,65 @@
+<aside class="site-side">
+  {{nav-exercises type='html-css'}}
+
+  <p class="section">
+    Steps
+  </p>
+
+  <div class="exercise-steps">
+    {{#exercise-steps}}
+      {{#step-number}}1{{/step-number}}
+      {{#step-title}}Page structure{{/step-title}}
+      {{#step-description}}
+        Create the structure of an HTML page
+      {{/step-description}}
+    {{/exercise-steps}}
+
+    {{#exercise-steps}}
+      {{#step-number}}2{{/step-number}}
+      {{#step-title}}Step-title{{/step-title}}
+      {{#step-description}}
+        Add a title element in the head section of your page
+      {{/step-description}}
+    {{/exercise-steps}}
+
+    {{#exercise-steps}}
+      {{#step-number}}3{{/step-number}}
+      {{#step-title}}Add h2 heading{{/step-title}}
+      {{#step-description}}
+        Create an h2 element in the body section of your page
+      {{/step-description}}
+    {{/exercise-steps}}
+
+    {{#exercise-steps}}
+      {{#step-number}}4{{/step-number}}
+      {{#step-title}}Add a paragraph{{/step-title}}
+      {{#step-description}}
+        Create a paragraph element in the body section of your page
+      {{/step-description}}
+    {{/exercise-steps}}
+
+    {{#exercise-steps}}
+      {{#step-number}}5{{/step-number}}
+      {{#step-title}}Add a list{{/step-title}}
+      {{#step-description}}
+        Create a list of your favorite movies in the body section of your page, below the paragraph
+      {{/step-description}}
+    {{/exercise-steps}}
+  </div>
+</aside>
+
+<main class="site-main">
+  <div class="browser-bar">
+    <div class="browser-dot"></div>
+    <div class="browser-dot"></div>
+    <div class="browser-dot"></div>
+
+    {{nav-tabs action='selectTab' tab=model.tab css=false js=false}}
+  </div>
+  {{#if (eq model.tab 'result')}}
+    {{exercise-result url='/result/html-css/2'}}
+  {{else if (eq model.tab 'html')}}
+    {{code-snippet name="html-css-exercise-2-html.hbs"}}
+  {{/if}}
+</main>
+{{outlet}}

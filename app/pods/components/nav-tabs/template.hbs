@@ -1,0 +1,31 @@
+<ul>
+  <li>
+    <a {{action 'selectTab' 'result'}} class="{{if (eq tab 'result') 'active' ''}}">
+      Result
+    </a>
+  </li>
+
+  {{#if html}}
+    <li>
+      <a {{action 'selectTab' 'html'}} class="{{if (eq tab 'html') 'active' ''}}">
+        HTML
+      </a>
+    </li>
+  {{/if}}
+
+  {{#if css}}
+    <li>
+      <a {{action 'selectTab' 'css'}} class="{{if (eq tab 'css') 'active' ''}}">
+        CSS
+      </a>
+    </li>
+  {{/if}}
+
+  {{#if js}}
+    <li>
+      <a {{action 'selectTab' 'js'}} class="{{if (eq tab 'js') 'active' ''}}">
+        JS
+      </a>
+    </li>
+  {{/if}}
+</ul>

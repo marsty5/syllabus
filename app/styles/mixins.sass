@@ -1,0 +1,90 @@
+=arrow($color)
+  border: 1px solid $color
+  border-right: 0
+  border-top: 0
+  content: " "
+  display: block
+  height: 8px
+  position: absolute
+  transform: rotate(-45deg)
+  width: 8px
+
+=center($size)
+  left: 50%
+  margin-left: -($size / 2)
+  margin-top: -($size / 2)
+  position: absolute
+  top: 50%
+
+=clearfix
+  &:after
+    clear: both
+    content: " "
+    display: table
+
+=fa($size)
+  font-size: $size
+  height: $size
+  line-height: $size
+  text-align: center
+  width: $size
+
+=overlay($o: 0, $p: absolute)
+  bottom: $o
+  display: block
+  left: $o
+  position: $p
+  right: $o
+  top: $o
+
+=placeholder
+  $placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+  @each $placeholder in $placeholders
+    &:#{$placeholder}-placeholder
+      @content
+
+=replace($width, $height, $url)
+  background: transparent no-repeat 0 0
+  background-image: url($url)
+  background-size: $width $height
+  display: block
+  height: $height
+  text-indent: -290486px
+  width: $width
+
+=scrollbar($width, $background, $thumb)
+  -webkit-overflow-scrolling: touch
+  overflow: hidden
+  overflow-y: scroll
+  &::-webkit-scrollbar
+    background: $c
+    width: $width
+  &::-webkit-scrollbar-thumb
+    background: $thumb
+
+=triangle($color)
+  border: solid transparent
+  border-bottom-color: $color
+  border-width: 6px 9px
+  content: " "
+  display: block
+  height: 0
+  width: 0
+
+// Responsiveness
+
+=until($width)
+  @media screen and (max-width: $width - 1px)
+    @content
+
+=from($width)
+  @media screen and (min-width: $width)
+    @content
+
+=mobile
+  @media screen and (max-width: 799px)
+    @content
+
+=desktop
+  @media screen and (min-width: 800px)
+    @content

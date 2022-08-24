@@ -1,0 +1,90 @@
+=control($bg, $bd, $cl)
+  appearance: none
+  background: $bg
+  border: 1px solid $bd
+  border-radius: $radius
+  color: $cl
+  cursor: pointer
+  display: inline-block
+  font-size: 13px
+  height: 32px
+  line-height: 20px
+  padding: 5px 10px
+  position: relative
+  vertical-align: top
+  &:active,
+  &:focus
+    outline: none
+
+.container
+  +clearfix
+  margin: 0 auto
+  max-width: 960px
+  position: relative
+
+.section
+  display: none
+  font-size: 11px
+  letter-spacing: 1px
+  margin-bottom: 10px !important
+  text-transform: uppercase
+
+.hamburger
+  display: block
+  height: 29px
+  padding: 7px 5px
+  position: relative
+  width: 29px
+  span
+    background: white
+    display: block
+    height: 1px
+    & + span
+      margin-top: 6px
+
+.links
+  background: white
+  font-family: $family-secondary
+  padding: 2.5em
+  a
+    color: $css3
+    font-weight: bold
+    &:hover
+      text-decoration: underline
+  strong
+    color: $strong
+  h1,
+  h2,
+  h3
+    color: $strong
+    margin-bottom: 20px !important
+    font-family: $family-primary
+    line-height: 1.2
+  h1
+    font-size: 2em
+    font-weight: bold
+  h2
+    background: $background
+    border-left: 5px solid $green
+    color: $text
+    font-size: 1.2em
+    padding: 1.5em !important
+  h3
+    font-size: 1.2em
+    margin-top: 2em !important
+  p
+    margin: 1em 0 !important
+  ol,
+  ul
+    margin: 1em 2em
+  ul
+    list-style: disc outside
+    ul
+      list-style-type: circle
+  li + li
+    margin-top: 0.5em
+  +desktop
+    border-radius: 3px 3px 0 0
+    box-shadow: 0 5px 15px rgba(black, .5)
+    margin: 0 20px
+    font-size: 20px
