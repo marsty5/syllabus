@@ -23,6 +23,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* `nvm use v4.0.0`, to ensure you're usinig the right node version
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
