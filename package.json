@@ -1,24 +1,26 @@
 {
   "name": "syllabus",
   "version": "0.0.0",
-  "description": "Small description for syllabus goes here",
+  "description": "Syllabus for building a static web page with HTML, CSS and Bootstrap",
   "private": true,
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
   "scripts": {
-    "build": "npm install bower && bower install && ember build",
+    "build": "npm install bower && ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "postinstall": "bower install"
   },
-  "repository": "",
+  "repository": "https://github.com/stefanpenner/ember-cli",
   "engines": {
     "node": "= 4.9.1"
   },
-  "author": "",
+  "author": "marsty5",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
+    "bower": "1.8.14",
     "ember-cli": "1.13.8",
     "ember-cli-app-version": "0.5.0",
     "ember-cli-babel": "^5.1.3",
