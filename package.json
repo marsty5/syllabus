@@ -1,7 +1,7 @@
 {
-  "name": "codeatuni-syllabus",
+  "name": "syllabus",
   "version": "0.0.0",
-  "description": "Small description for codeatuni-syllabus goes here",
+  "description": "Small description for syllabus goes here",
   "private": true,
   "directories": {
     "doc": "doc",

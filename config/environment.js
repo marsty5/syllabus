@@ -2,8 +2,8 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'codeatuni-syllabus',
-    podModulePrefix: 'codeatuni-syllabus/pods',
+    modulePrefix: 'syllabus',
+    podModulePrefix: 'syllabus/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
