@@ -10,12 +10,11 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test",
-    "preinstall": "npx npm-force-resolutions"
+    "test": "ember test"
   },
   "repository": "",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": "= 2.14.2"
   },
   "author": "",
   "license": "MIT",
