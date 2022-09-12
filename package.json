@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "bower install && ember build",
+    "build": "npm install bower && bower intall && ember build",
     "start": "ember server",
     "test": "ember test"
   },
