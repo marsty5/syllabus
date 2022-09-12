@@ -52,8 +52,6 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.rootURL = 'https://girls-in-steam.herokuapp.com/';
     ENV.contentSecurityPolicy['connect-src'] = 'https://girls-in-steam.herokuapp.com/';
-    ENV['simple-auth'].crossOriginWhitelist = ['https://girls-in-steam.herokuapp.com/'];
-    ENV['simple-auth-oauth2'].serverTokenEndpoint = 'https://girls-in-steam.herokuapp.com/token';
   }
 
   return ENV;
