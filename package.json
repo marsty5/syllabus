@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "npm install bower && ember build",
-    "start": "ember server",
+    "start": "ember serve --port=${PORT}",
     "test": "ember test",
     "postinstall": "bower install"
   },
