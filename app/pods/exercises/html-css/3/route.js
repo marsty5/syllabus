@@ -3,36 +3,29 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Page structure',
-            description: 'Create the structure of an HTML page'
+            title: "Φόρμα",
+            description: "Δημιουργήστε μια φόρμα με το element 'form'.",
+            information: ""
         },
         {
-            title: 'Title',
-            description: 'Add a title element in the head section of your page'
+            title: "Text input",
+            description: "Προσθέστε δύο πεδία δεδομένων που δέχονται κείμενο, για να ζητήσετε το όνομα και επίθετο. Χρησιμοποιήστε τα elements 'p' και 'input' για να τα καταφέρετε.",
+            information: "❗Ψάξτε στο Google το εξής: 'html input types', και βρέστε πως να γράψετε το element 'input', τύπου 'text', στο html αρχείο σας!"
         },
         {
-            title: 'Form element',
-            description: 'Create a form element in the body section of your page'
+            title: "Checkbox input",
+            description: "Προσθέστε τρία πεδία δεδομένων για να προσφέρετε multiple-choice επιλογές για την αγαπημένη σας ταινία. ",
+            information: "❗Χρησιμοποιήστε το Google για να μάθετε πως να γράψετε το element 'input', τύπου 'checkbox', στο html αρχείο σας!"
         },
         {
-            title: 'Input element',
-            description: 'Add a name, surname input fields with a description on the left hand side, in the form element above.'
+            title: "Άλλοι τύποι input",
+            description: "Δοκιμάστε να βρείτε τους τύπους input που χρησιμοποιήθηκαν για το χρώμα και τηλέφωνο.",
+            information: "Πειραματιστείτε με διαφορετικούς τύπους του element 'input', με βάση το τι βρήκατε στο google."
         },
         {
-            title: 'Checkbox input',
-            description: 'Add three of your favorite movies and a checkbox input next to each one.'
-        },
-        {
-            title: 'Other input types',
-            description: 'Experiment with the different types of inputs found on the "W3Schools input types" resource in the links section.'
-        },
-        {
-            title: 'Submit button',
-            description: 'Add a submit button that submits the form above at the end (inside) of your form tag.'
-        },
-        {
-            title: 'Extra exercise',
-            description: 'Add action to your form, to navigate your form submission to a Google search.'
+            title: "Submit input",
+            description: "Προσθέστε ένα submit button that submits the form above at the end (inside) of your form tag.",
+            information: ""
         }
     ],
     model(){
