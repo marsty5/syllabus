@@ -8,7 +8,7 @@ export default Ember.Route.extend({
             information: ""
         },
         {
-            title: "Η δομή της σελίδας ",
+            title: "Η δομή της σελίδας",
             description: "Δημιουργήστε τη δομή της HTML σελίδας.",
             information: ""
         },
