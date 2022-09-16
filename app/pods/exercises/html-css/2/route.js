@@ -3,6 +3,11 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
+            title: "Δημιουργία html αρχείου",
+            description: "Δημιουργήστε ένα φάκελο 'website-1', και εντός του φακέλου δημιουργήστε ένα αρχείο και αποθηκεύστε το ως 'index.html'.",
+            information: ""
+        },
+        {
             title: "Η δομή της σελίδας ",
             description: "Δημιουργήστε τη δομή της HTML σελίδας.",
             information: ""
