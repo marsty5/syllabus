@@ -6,27 +6,18 @@
   </p>
 
   <div class="exercise-steps">
-    {{#exercise-steps}}
-      {{#step-number}}1{{/step-number}}
-      {{#step-title}} Η δομή της σελίδας {{/step-title}}
-      {{#step-description}}
-        Δημιουργήστε τη δομή της HTML σελίδας.
-      {{/step-description}}
-    {{/exercise-steps}}
-    {{#exercise-steps}}
-      {{#step-number}}2{{/step-number}}
-      {{#step-title}}Το element 'title'{{/step-title}}
-      {{#step-description}}
-        Βάλτε τίτλο πάνω στο tab της σελίδας σας. <br> Πως: προσθέστε το element 'title' στο head κομμάτι της σελίδας.
-      {{/step-description}}
-    {{/exercise-steps}}
-    {{#exercise-steps}}
-      {{#step-number}}3{{/step-number}}
-      {{#step-title}}Επικεφαλίδα{{/step-title}}
-      {{#step-description}}
-        Προσθέστε ένα τίτλο στο περιεχόμενο της σελίδας. Χρησιμοποιήστε το element 'h2' στο body κομμάτι της σελίδας.
-      {{/step-description}}
-    {{/exercise-steps}}
+    {{#each model.steps key="@index" as |step index|}}
+      {{#exercise-steps}}
+        {{#step-number}}{{add-one index}}{{/step-number}}
+        {{#step-title}}{{step.title}}{{/step-title}}
+        {{#step-description}}
+          {{step.description}}
+        {{/step-description}}
+        {{#step-information}}
+          {{step.information}}
+        {{/step-information}}
+      {{/exercise-steps}}
+    {{/each}}
   </div>
 </aside>
 
