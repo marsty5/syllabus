@@ -14,6 +14,10 @@ export default Ember.Route.extend({
         {
             title: "Έξτρα! Δημιουργείστε μια λίστα με 3 youtube videos των αγαπημένων σας ταινιών.",
             description: "Συνδιάστε τα elements που μάθαμε: ul, li."
+        },
+        {
+            title: "Έξτρα! Προσθέστε μια εικόνα gif",
+            description: "Μπορείτε να βρείτε gifs κάτω από τις 'Χρήσιμες Σελίδες'"
         }
     ],
     model(){
