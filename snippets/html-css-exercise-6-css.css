@@ -1,32 +1,22 @@
 /* This is comment */
-/*li{
+/*
+h3{
+  color: red;
+}
+li{
   color: blue;
 }
-
-h1,h3{
-  color: red;
-}*/
-
-/*
-  The dot (.) signifies that it's styling a class
-  The hash (#) signifies that it's styling an id
 */
 
-#welcome{
-  color: green;
+
+.emphasize-title {
+  color: red;
   font-size: 50px;
 }
-
-#tagline{
-  color: orange;
-  font-weight: bold;
+.winter{
+  color: gray;
 }
-
-.bluecolor{
-  color: blue;
-}
-
-.redcolor{
-  color: red;
+.summer{
+  color:orange;
 }
 
