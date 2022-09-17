@@ -9,20 +9,8 @@ Click the button and see what happens!
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Main content',
-            description: 'This exercise builds on top of the previous exercise! Lets add some content in the eight columns!'
-        },
-        {
-            title: 'Sections',
-            description: 'Similar to the previous exercise, sections can be created in the same way.'
-        },
-        {
-            title: 'About me section',
-            description: 'Create an about me section, and an interests section.'
-        },
-        {
-            title: 'Interests',
-            description: 'Add a list of things you are interested in, almost like a CV.'
+            title: 'Δημιουργία style.css',
+            description: 'Δημιουργήστε το style.css σας και αρχίστε να κάνετε αλλαγές στα χρώματα!'
         }
     ],
     model(){

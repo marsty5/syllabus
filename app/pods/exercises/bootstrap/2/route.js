@@ -3,17 +3,28 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Include Bootstrap CDN',
-            description: 'Continuing from the previous example, include both Bootstrap CDNs in the <head> section. Both these links are provided in the links section.'
+            title: "Επικεντρωνόμστε στην αριστερά στήλη!",
+            description: ""
         },
         {
-            title: 'Sidebar',
-            description: 'Create a sidebar section 4 columns wide where the information about yourself will be added. if you\'ve already done a similar column in your previous exercise, just make it 4 columns this time.'
+            title: "Δημιουργία της πρώτης κάρτας",
+            description: "",
+            information: "❗Ψάξτε 'card boostrap' στο Google και ανοίξτε τη σελίδα του getbootstrap για να βρείτε πως να το γράψετε."
         },
         {
-            title: 'Main content',
-            description: 'Create a content section 8 columns wide, where more information about yourself will be added'
-        }
+            title: "Μικρά Εικονίδια",
+            description: "Τα μικρά εικονίδια του Linkedin, Instagram κλπ, προέρχονται από το σελίδα 'font awesome'.",
+            information: "❗Ψάξτε στο Google 'linkedin font awesome' και ανοίξτε τη σελίδα από το fontawesome."
+        },
+        {
+            title: "Δημιουργία της δεύτερης κάρτας",
+            description: "Πηγαίνεται στο https://fontawesome.com/ και βρείτε τα εικονίδια που θέλετε να χρησιμοιποιήσετε."
+        },
+        {
+            title: "Δημιουργία της τρίτης κάρτας",
+            description: "Η τρίτη κάρτα περιέχει 'progress bars'.",
+            information: "❗Ψάξτε στο Google 'progress bars bootstrap' και ανοίξτε τη σελίδα από το boostrap."
+                    },
     ],
     model(){
         return {

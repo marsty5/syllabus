@@ -3,28 +3,36 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Page structure & Title',
-            description: 'Create the structure of an HTML page and give it a title'
+            title: "Δημιουργία html αρχείου",
+            description: "Μέσα στο φάκελο steam-academy/, δημιουργήστε ένα νέο φάκελο 'final-website', και εντός του φακέλου δημιουργήστε το αρχείο 'index.html'.",
+            information: ""
         },
         {
-            title: 'Including Bootstrap',
-            description: 'Include both Bootstrap CDNs in the <head> section. These links are provided in the links section.'
+            title: "Η δομή της σελίδας",
+            description: "Δημιουργήστε τη δομή της HTML σελίδας.",
+            information: ""
         },
         {
-            title: 'The container!',
-            description: 'Create a div element with a class=”container”. This is where all of your content will be added.'
+            title: "Σύνδεση με το Bootstrap",
+            description: "Προσθέστε δύο elements 'link' στο <head> για να συνδεθεί με το κώδικα του Bootstrap.",
+            information: "❗Μπορείτε να βρείτε τα 2 links για το Bootstrap στα 'Χρήσιμες Σελίδες' (από το μενού της σελίδας μας)."
         },
         {
-            title: 'The row',
-            description: 'Create a div element with a class=”row”, inside the element created above.'
+            title: "Το container",
+            description: "Δημιουργήστε ένα div element με class=”container”. Μεταξύ των tags, θα γράψουμε όλο το περιεχόμενο της σελίδας μας."
         },
         {
-            title: 'Creating columns',
-            description: 'Create two div elements inside the element created above and use bootstrap’s column classes to create the interface shown on the right hand side.'
+            title: "Το row",
+            description: "Δημιουργήστε ένα div element με class=”row”, μέσα στο container που μόλις δημιουργήσαμε."
         },
         {
-            title: 'Content. Content. Content.',
-            description: 'Add some content in your elements above!'
+            title: "Tα columns",
+            description: "Δημιουργήστε δύο div elements μέσα στο element 'row'.",
+            information: "Πειραματιστείτε με το μέγεθος των στηλών για να μοιάζει όσο πιο πολύ γίνεται με το αποτέλεσμα στην οθόνη."
+        },
+        {
+            title: 'Περιεχόμενο',
+            description: "Προσθέστε το περιεχόμενο μεταξύ των tags των columns, για να παράξετε κάτι παρόμοιο με αυτό στην οθόνη."
         }
     ],
     model(){
