@@ -1,161 +1,107 @@
 <html>
   <head>
-    <title>Your name</title>
+    <title>Η ιστοσελίδα μου</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
-    <link href="/learn-to-code.css" rel="stylesheet">
-    <link href="/custom.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-inverse">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Grumpy Pug</a>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
-          </li>
-
-        </ul>
-      </div>
-    </nav>
-
-    <br>
-
     <div class="container">
+      <!-- Menu bar --> 
+      <nav class="navbar navbar-light" style="background-color: #e16879;">
+          <a class="navbar-brand">Grumpy Cat</a>
+      </nav>
+
       <div class="row">
-
-        <div class="col-sm-4">
-          <div class="card text-center description">
-            <div class="card-block">
-              <img class="img-circle animated pulse infinite" src="/grumpy-dog.jpg">
-              <h4 class="card-title">Grumpy Pug</h4>
-              <p class="card-text">
-                I hate Mondays, work, everything!<br>
-                Everything I tell you!
-              </p>
+        <!-- Αριστερή πλευρά της σελίδας -->
+        <div class="col-md-4">
+          
+          <!-- Πρώτη κάρτα αριστερά-->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body text-center">
+              <img class="img-thumbnail rounded-circle" src="/grumpy-dog.jpg">
+              <h5 class="card-title">Πάγκ ο Δυνατός</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Επαγγελματίας σκύλος</h6>
+              <p class="card-text">Μου αρέσει να μασάω χαρτόνια, να τρωω το φαγητό των ανθρώπων και να ροχαλίζω καθώς κοιμάμαι.</p>
+              <a href="#" class="card-link"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
+              <a href="#" class="card-link"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
             </div>
-            <div class="card-footer">
-              <a href="#">
-                <i class="fa fa-linkedin-square"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-facebook-square"></i>
-              </a>
-              <a href="#">
-                <i class="fa fa-spotify"></i>
-              </a>
+            <a href="#"> </a>
+          </div>
+
+          <!-- Δεύτερη κάρτα αριστερά-->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body text-center">
+              <h5 class="card-title">Τα στοιχεία μου</h5>
+              
+              <p><i class="fa fa-map-marker" aria-hidden="true">Λευκωσία</i></p>
+              <p><i class="fa fa-university" aria-hidden="true">Πανεπιστήμιο Κύπρου</i></p>
+              <p><i class="fa fa-heart">Ύπνος, φαγητό, παιχνίδι</i></p>
             </div>
           </div>
-          <br>
-          <div class="card information">
-            <div class="card-block">
-              <h4 class="card-title">Information</h4>
-              <p>
-                <i class="fa fa-map-marker"></i>
-                South Kensington, London
-              </p>
-              <p>
-                <i class="fa fa-graduation-cap"></i>
-                LSE
-              </p>
-              <p>
-                <i class="fa fa-heart"></i>
-                Empty boxes, Weekends, Sleep
-              </p>
-            </div>
-          </div>
-          <br>
-          <div class="card skills">
-            <div class="card-block">
-              <h4 class="card-title">Skills</h4>
 
-                <span>HTML</span>
+          <!-- Τρίτη κάρτα αριστερά-->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body text-center">
+              <h5 class="card-title">Δεξιότητες</h5>
+              <p> Κριτική φαγητού
                 <div class="progress">
-                  <div class="progress-bar bg-success" style="width: 25%">25%</div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-
-                <span>CSS</span>
+              </p>
+              <p> Μάσιμα χαρτονιών
                 <div class="progress">
-                  <div class="progress-bar bg-info" style="width: 50%">50%</div>
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Μάσιμα χαρτονιών</div>
                 </div>
-
-                <span>JavaScript</span>
+              </p>
+              <p> Ροχαλητό
                 <div class="progress">
-                  <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-
-                <span>Grumpiness</span>
+              </p>
+              <p> Να έχω φάτσα grumpy
                 <div class="progress">
-                  <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-
+              </p>
             </div>
-          </div>
-          <br>
-
-          <div class="card instagram">
-            <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:35.37037037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTZ3OMTFLBl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">&#34;I&#39;m stumped&#34; 🤷‍♂️</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Jeremy Veach (@jeremyveach) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-04-27T21:36:17+00:00">Apr 27, 2017 at 2:36pm PDT</time></p></div></blockquote>
-            <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-          </div>
-        </div>
-
-        <div class="col-sm-8">
-
-          <div class="card about">
-            <div class="card-block">
-              <h4 class="card-title">About me</h4>
-              <p class="card-text">
-                I am a Grumpy Pug and I don't like anything in this life except from grumping all day long. Do you know the happy song? It says 'Cause I'm happy...' - Well I hate it. But I made my own version for that and I sing crying "Cause I'm grumpy"
+          </div> <!-- end of card -->
+        </div> <!-- end of column -->
+        
+        <!-- Δεξιά πλευρά της σελίδας -->
+        <div class="col-md-8">
+          <!-- Πρώτη κάρτα δεξιά -->
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Βιογραφικό</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             </div>
           </div>
-
-          <br>
-
-          <div class="card interests">
-            <div class="card-block">
-              <h4 class="card-title">Interests</h4>
-              <p class="card-text">
-                <strong>Call of Duty</strong>
-                <br>
-                I like being on duty of grumping. It's in my blood.
+          <!-- Δεύτερη κάρτα δεξιά -->
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Μαθήματα</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Μαθηματικά</h6>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
               </p>
-              <p class="card-text">
-                <strong>Ballet</strong>
-                <br>
-                This is a hidden special talent of mine. Don't tell anyone this really. <br>
-                It will destroy my image.... The truth is; I like to pretent that I do ballet.
+              <h6 class="card-subtitle mb-2 text-muted">Πληροφορική</h6>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
-              <p class="card-text">
-                <strong>Grumping</strong>
-                <br>
-              I'm the master of grumping. The one and only. Noone is like me. Noone can reach my level of awesomeness in grumping. Don't even try. Bitch please.
+              <h6 class="card-subtitle mb-2 text-muted">Μουσική</h6>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             </div>
           </div>
-          <br>
-
-          <div class="card video-card">
-            <div class="card-block">
-              <h4 class="card-title">Videos</h4>
-              <iframe width="100%" height="480" src="https://www.youtube.com/embed/WTQJp9wllow" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-
-        </div>
-
+        </div> <!-- Τέλος στήλης -->
+      </div> <!-- Τέλος γραμμής -->
+    </div> <!-- Τέλος container -->
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="background-color: lightgrey;">
+      <div class="footer-copyright text-center py-3">
+        Αυτή η σελίδα φτιάκτηκε από τη Μαρία Στυλιανού.
       </div>
-    </div>
+    </footer> 
   </body>
 </html>

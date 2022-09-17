@@ -4,7 +4,7 @@ body {
 }
 
 .progress-bar{
-  background-color: orange;
+	background-color: orange;
 }
 
 
@@ -16,7 +16,7 @@ body {
 
 .navbar-brand,
 .nav-item a {
-  color:white;
+	color:white;
 }
 
 .navbar-brand:hover,
@@ -28,7 +28,7 @@ body {
 .nav-item a:active,
 .nav-item a:focus,
 .nav-item a:active:focus {
-  color: yellow;
+	color: yellow;
 }
 
 .btn-primary {
