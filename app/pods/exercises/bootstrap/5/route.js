@@ -9,8 +9,8 @@ Click the button and see what happens!
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Δημιουργία style.css',
-            description: 'Δημιουργήστε το style.css σας και αρχίστε να κάνετε αλλαγές στα χρώματα!'
+            title: '',
+            description: 'Μπορείτε να βρείτε όλο το κώδικα της σελίδας στο HTML tab.'
         }
     ],
     model(){
