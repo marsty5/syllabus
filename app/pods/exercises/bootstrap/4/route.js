@@ -9,8 +9,14 @@ Click the button and see what happens!
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Δημιουργία style.css',
-            description: 'Δημιουργήστε το style.css σας και αρχίστε να κάνετε αλλαγές στα χρώματα!'
+            title: "Navigation bar",
+            description: "Προσθέστε τη γραμμή του μενού, στην αρχή της σελίδας",
+            information: ""
+        },
+        {
+            title: "Footer",
+            description: "Προσθέστε τη γραμμή του footer, στο τέλος της σελίδας.",
+            information: "❗Χρησιμοποιήστε το 'card-footer' class μέσα στη κάρτα που θέλετε."
         }
     ],
     model(){
