@@ -5,20 +5,8 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Account',
-            description: 'Create a free Neocities account <a href="https://neocities.org/" target="_blank">here</a>.'
-        },
-        {
-            title: 'Upload',
-            description: 'Click "Start building". You can now drag and drop all your html/js/css files in the upload section.'
-        },
-        {
-            title: 'Open',
-            description: 'Click the "***.neocities.org" link found in the at the top of the upload page.'
-        },
-        {
-            title: 'Share!',
-            description: 'Share the link with your friends, and show off!'
+            title: 'Ακολουθήστε τα βήματα στη δεξιά στήλη 👉',
+            description: 'Ξεκινήστε με τη δημιουργία του λογαριασμού σας στο https://github.com'
         }
     ],
     model(){
