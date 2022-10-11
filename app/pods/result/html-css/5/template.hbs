@@ -1,28 +1,66 @@
 <html>
   <head>
-    <title>Η πρώτη μου CSS άσκηση</title>
+    <title>My favorite youtube videos</title>
     <link href="/webkit.css" rel="stylesheet">
     <style media="screen">
       /* This is comment */
-      h3{
-        color: red;
+      h2{
+        color: purple;
+      }
+      ol{
+        font-weight: bold;
       }
       li{
         color: green;
       }
+      form{
+        border: solid 2px purple;
+      }
+      body{
+        text-align: center;
+      }
     </style>
   </head>
-  <body>
-    <h3>Τι κάνω όταν...</h3>
 
-    <ul> ... χειμωνιάζει
-      <li>Βλέπω παραπάνω ταινίες</li>
-      <li>Πάω εκδρομές στα βουνά</li>
-      <li>Κάνω τροχάδι!</li>
+  <body>
+    <h2>Η επικεφαλίδα της ιστοσελίδας μας</h2>
+    <p>Καλωσορίσατε στην ιστοσελίδα μας. Εδώ μαθαίνουμε να γράφουμε κώδικα!</p>
+    <img src="https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=500&q=80" alt="">
+    <ol> Οι δραστηριότητες μου
+      <li>Windsurfing</li>
+      <li>Ποδηλασία</li>
+      <li>Βιβλία</li>
+    </ol>
+    
+    <form>
+      <p>Όνομα: <input type="text"></p>
+      <p>Επίθετο: <input type="text"></p>
+      <p>Αγαπημένες ταινίες:</p>
+      <p><input type="checkbox"> Minions</p>
+      <p><input type="checkbox"> Finding Nemo</p>
+      <p><input type="checkbox"> Toy Story</p>
+      <p>Aγαπημένο χρώμα: <input type="color"></p>
+      <p>Τηλέφωνο: <input type="tel"></p>
+      <p><input type="submit" value="Αποθήκευση"></p>
+    </form>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/z-gcqNKMK-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>
+      <a href="https://www.youtube.com/watch?v=z-gcqNKMK-E" target="_blank">Open video on youtube</a>
+    </p>
+    <p>Relevant videos:</p>
+    <ul>
+      <li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jc86EFjLFV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
+      <li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2zLkasScy7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
+      <li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v-PjgYDrg70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
     </ul>
-        <ul> ... καλοκαιριάζει
-      <li>Πάω θάλασσα!</li>
-      <li>Κάνω windsurfing</li>
-    </ul>
+    <iframe src="https://giphy.com/embed/eCOZ9tuKeLS2BPIvv4" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/evening-have-a-nice-nekosan-eCOZ9tuKeLS2BPIvv4"></a></p>
   </body>
 </html>
+

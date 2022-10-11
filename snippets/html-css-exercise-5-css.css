@@ -1,7 +1,19 @@
-/* This is comment */
-h3{
-  color: red;
+h2{
+  color: purple;
 }
+
+ol{
+  font-weight: bold;
+}
+
 li{
   color: green;
+}
+
+form{
+  border: solid 2px purple;
+}
+
+body{
+  text-align: center;
 }

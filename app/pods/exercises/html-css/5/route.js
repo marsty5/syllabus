@@ -3,41 +3,31 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Δημιουργία html αρχείου",
-            description: "Μέσα στον ίδιο φάκελο 'website-1', δημιουργήστε ένα νέο αρχείο και αποθηκεύστε το ως 'index2.html'.",
-            information: ""
-        },
-        {
-            title: "Η δομή της σελίδας",
-            description: "Δημιουργήστε τη δομή της HTML σελίδας.",
-            information: "❗Θυμηθείτε τα elements: html, head, body, title."
-        },
-        {
-            title: "Τίτλος 'Τι κάνω όταν...'",
-            description: "Δημιουργήστε ένα τίτλο h3."
-        },
-        {
-            title: "'... χειμωνιάζει'",
-            description: "Δημιουργήστε μια λίστα (bullet-points) με 2-3 δραστηριότητες που κάνετε το χειμώνα."
-        },
-        {
-            title: "'... καλοκαιριάζει'",
-            description: "Δημιουργήστε μια λίστα (bullet-points) με 2-3 δραστηριότητες που κάνετε το καλοκαίρι."
-        },
-        {
             title: "Δημιουργία CSS αρχείου!",
             description: "Δημιουργήστε το φάκελο 'css' αν δεν τον έχετε ήδη. Μέσα στο 'css' φάκελο, δημιουργήστε ένα αρχείο με το όνομα style.css."
         },
         {
             title: "Συνδέστε τα html και css αρχεία σας!",
-            description: "Στο html αρχέιο, μέσα στο head element, προσθέστε το element <link href='css/style.css' rel='stylesheet'>"
+            description: "Στο html αρχέιο, μέσα στο head element, προσθέστε το element <link href='./css/style.css' rel='stylesheet'>"
         },
         {
-            title: "CSS selector πάνω στο h3 element",
-            description: "Αλλάξτε το χρώμα του τίτλου σε κόκκινο"
+            title: "Βάρτε χρώμα στην επικεφαλίδα",
+            description: "Στο css αρχείο μας, προσθέστε το element 'h2' και δώστε του χρώμα μωβ."
         },
         {
-            title: "CSS selector πάνω στα li elements",
+            title: "Κάντε το 'Οι δραστηριότητες μου' bold",
+            description: "❗Ψάξτε στο Google το εξής: 'how to make element bold css'"
+        },
+        {
+            title: "'Κάντε τα numeric points χρώμα πράσινο",
+            description: "❓Υπάρχουν δύο τρόποι. Μπορείτε να τους βρείτε;"
+        },
+        {
+            title: "Βάλτε τη φόρμα σε κουτί (boarder)!",
+            description: "❓Πως θα το ξάξετε στο Google;"
+        },
+        {
+            title: "Κάντε όλο το περιεχόμενο centered",
             description: "Αλλάξτε το χρώμα όλων των αντικειμένων της λίστας σε πράσινο."
         }
     ],
