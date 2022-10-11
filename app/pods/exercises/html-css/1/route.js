@@ -3,23 +3,22 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Δημιουργία html αρχείου",
-            description: "Δημιουργήστε ένα φάκελο 'website-1', και εντός του φακέλου δημιουργήστε ένα αρχείο και αποθηκεύστε το ως 'index.html'.",
+            description: "Τώρα βρισκόμαστε μέσα στο αρχείο index.html",
             information: ""
         },
         {
             title: "Η δομή της σελίδας",
             description: "Δημιουργήστε τη δομή της HTML σελίδας.",
-            information: ""
+            information: "❗Χρησιμοποιήστε τα elements που μάθαμε: <html>...</html>, <head>...</head>, <body>...</body>"
         },
         {
             title: "Το element 'title'",
             description: "Βάλτε τίτλο πάνω στο tab της σελίδας σας.",
-            information: " Πως: προσθέστε το element 'title' στο head κομμάτι της σελίδας."
+            information: "❗Πως: προσθέστε το element 'title' στο head κομμάτι της σελίδας."
         },
         {
             title: "Επικεφαλίδα",
-            description: "Προσθέστε ένα τίτλο στο περιεχόμενο της σελίδας. Χρησιμοποιήστε το element 'h2' στο body κομμάτι της σελίδας."
+            description: "Προσθέστε μια Επικεφαλίδα στο περιεχόμενο της σελίδας. Χρησιμοποιήστε το element 'h2' στο body κομμάτι της σελίδας."
 
         }
     ],
