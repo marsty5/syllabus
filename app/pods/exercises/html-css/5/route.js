@@ -3,32 +3,21 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Δημιουργία CSS αρχείου!",
-            description: "Δημιουργήστε το φάκελο 'css' αν δεν τον έχετε ήδη. Μέσα στο 'css' φάκελο, δημιουργήστε ένα αρχείο με το όνομα style.css."
+            title: "Youtube video",
+            description: "Προσθέστε ένα youtube video της αγαπημένης σας δραστηριότητας.",
+            information: "❗Ψάξτε το πως στο Google!"
         },
         {
-            title: "Συνδέστε τα html και css αρχεία σας!",
-            description: "Στο html αρχέιο, μέσα στο head element, προσθέστε το element <link href='./css/style.css' rel='stylesheet'>"
+            title: "Προσθέστε ένα hyperlink 'Ανοίξτε το βίντεο στο youtube'.",
+            description: "Συνδιάστε το element 'p' με το element 'α' για να το καταφέρετε. Χρησιμοποιήστε το Google!"
         },
         {
-            title: "Βάρτε χρώμα στην επικεφαλίδα",
-            description: "Στο css αρχείο μας, προσθέστε το element 'h2' και δώστε του χρώμα μωβ."
+            title: "Έξτρα! Δημιουργείστε μια λίστα με 3 youtube videos των αγαπημένων σας ταινιών.",
+            description: "Συνδιάστε τα elements που μάθαμε: ul, li."
         },
         {
-            title: "Κάντε το 'Οι δραστηριότητες μου' bold",
-            description: "❗Ψάξτε στο Google το εξής: 'how to make element bold css'"
-        },
-        {
-            title: "'Κάντε τα numeric points χρώμα πράσινο",
-            description: "❓Υπάρχουν δύο τρόποι. Μπορείτε να τους βρείτε;"
-        },
-        {
-            title: "Βάλτε τη φόρμα σε κουτί (boarder)!",
-            description: "❓Πως θα το ξάξετε στο Google;"
-        },
-        {
-            title: "Κάντε όλο το περιεχόμενο centered",
-            description: "Αλλάξτε το χρώμα όλων των αντικειμένων της λίστας σε πράσινο."
+            title: "Έξτρα! Προσθέστε μια εικόνα gif",
+            description: "Μπορείτε να βρείτε gifs κάτω από τις 'Χρήσιμες Σελίδες'"
         }
     ],
     model(){

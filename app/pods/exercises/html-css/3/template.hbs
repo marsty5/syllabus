@@ -4,9 +4,7 @@
   <p class="section">
     Steps
   </p>
-
-  <div class="exercise-steps">
-    {{#each model.steps key="@index" as |step index|}}
+  {{#each model.steps key="@index" as |step index|}}
       {{#exercise-steps}}
         {{#step-number}}{{add-one index}}{{/step-number}}
         {{#step-title}}{{step.title}}{{/step-title}}
@@ -18,7 +16,6 @@
         {{/step-information}}
       {{/exercise-steps}}
     {{/each}}
-  </div>
 </aside>
 
 <main class="site-main">
@@ -33,10 +30,6 @@
     {{exercise-result url='/result/html-css/3'}}
   {{else if (eq model.tab 'html')}}
     {{code-snippet name="html-css-exercise-3-html.hbs"}}
-  {{else if (eq model.tab 'css')}}
-
-  {{else if (eq model.tab 'js')}}
-
   {{/if}}
 </main>
 {{outlet}}

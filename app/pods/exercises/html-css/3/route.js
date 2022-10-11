@@ -3,29 +3,18 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Φόρμα",
-            description: "Δημιουργήστε μια φόρμα με το element 'form'.",
+            title: "Παράγραφος",
+            description: "Προσθέστε το element 'p' στο body κομμάτι της σελίδας.",
             information: ""
         },
         {
-            title: "Text input",
-            description: "Προσθέστε δύο πεδία δεδομένων που δέχονται κείμενο, για να ζητήσετε το όνομα και επίθετο. Χρησιμοποιήστε τα elements 'p' και 'input' για να τα καταφέρετε.",
-            information: "❗Ψάξτε στο Google το εξής: 'html input types', και βρέστε πως να γράψετε το element 'input', τύπου 'text', στο html αρχείο σας!"
+            title: "Εικόνα",
+            description: "Προσθέστε το element 'img', συνδέοντας το με ένα λινκ σε μια εικόνα μέσα στο attribute 'src'.",
+            information: "❗Ψάξτε στο Google το εξής: 'img html' για να βρείτε πως να το γράψετε."
         },
         {
-            title: "Checkbox input",
-            description: "Προσθέστε τρία πεδία δεδομένων για να προσφέρετε multiple-choice επιλογές για την αγαπημένη σας ταινία. ",
-            information: "❗Χρησιμοποιήστε το Google για να μάθετε πως να γράψετε το element 'input', τύπου 'checkbox', στο html αρχείο σας!"
-        },
-        {
-            title: "Άλλοι τύποι input",
-            description: "Δοκιμάστε να βρείτε τους τύπους input που χρησιμοποιήθηκαν για το χρώμα και τηλέφωνο.",
-            information: "Πειραματιστείτε με διαφορετικούς τύπους του element 'input', με βάση το τι βρήκατε στο google."
-        },
-        {
-            title: "Submit input",
-            description: "Προσθέστε ένα submit button that submits the form above at the end (inside) of your form tag.",
-            information: ""
+            title: "Λίστα",
+            description: "Προσθέστε μια αριθμημένη λίστα όπου σε σειρά προτεραιότητας, καταγράφετε τις αγαπημένες σας δραστηριότητες. Χρησιμοποιήστε τα elements 'ol' και 'li'."
         }
     ],
     model(){

@@ -3,32 +3,32 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Extending Ex5',
-            description: 'We will be building on the previous exercise, so make sure you have the same files open.'
+            title: "Δημιουργία CSS αρχείου!",
+            description: "Δημιουργήστε το φάκελο 'css' αν δεν τον έχετε ήδη. Μέσα στο 'css' φάκελο, δημιουργήστε ένα αρχείο με το όνομα style.css."
         },
         {
-            title: 'ID\'s',
-            description: 'Add an HTML attribute of id="welcome" on the "Welcome" h1 element. Also add an HTML attribute of id="tagline" on the tagline h3 element.'
+            title: "Συνδέστε τα html και css αρχεία σας!",
+            description: "Στο html αρχέιο, μέσα στο head element, προσθέστε το element <link href='./css/style.css' rel='stylesheet'>"
         },
         {
-            title: 'Classes',
-            description: 'Add an html attribute of class=”bluecolor” for your top two favorite songs, and class=”redcolor” for the third one.'
+            title: "Βάρτε χρώμα στην επικεφαλίδα",
+            description: "Στο css αρχείο μας, προσθέστε το element 'h2' και δώστε του χρώμα μωβ."
         },
         {
-            title: 'HTML + CSS = <3!',
-            description: 'Import your css file in the head of your HTML page, by utilising the link tag.'
+            title: "Κάντε το 'Οι δραστηριότητες μου' bold",
+            description: "❗Ψάξτε στο Google το εξής: 'how to make element bold css'"
         },
         {
-            title: 'Starting clean',
-            description: 'Comment out any CSS code of the previous exercise using. /* your css code */'
+            title: "'Κάντε τα numeric points χρώμα πράσινο",
+            description: "❓Υπάρχουν δύο τρόποι. Μπορείτε να τους βρείτε;"
         },
         {
-            title: 'CSS id selectors!',
-            description: 'Create a “welcome” id selector and set the color attribute to green, and font-size attribute to 50px. Similarly, Create a “tagline” id selector and set the color attribute to orange, and font-weight to bold.'
+            title: "Βάλτε τη φόρμα σε κουτί (boarder)!",
+            description: "❓Πως θα το ξάξετε στο Google;"
         },
         {
-            title: 'CSS class selectors!',
-            description: 'Create a “bluecolor” class selector in your css file and set the color attribute to blue. Similarly, create a “redcolor” class selector and set the color to red'
+            title: "Κάντε όλο το περιεχόμενο centered",
+            description: "Αλλάξτε το χρώμα όλων των αντικειμένων της λίστας σε πράσινο."
         }
     ],
     model(){

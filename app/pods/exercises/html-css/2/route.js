@@ -3,18 +3,22 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Παράγραφος",
-            description: "Προσθέστε το element 'p' στο body κομμάτι της σελίδας.",
-            information: ""
+            description: "Τώρα βρισκόμαστε μέσα στο αρχείο index.html",
         },
         {
-            title: "Εικόνα",
-            description: "Προσθέστε το element 'img', συνδέοντας το με ένα λινκ σε μια εικόνα μέσα στο attribute 'src'.",
-            information: "❗Ψάξτε στο Google το εξής: 'img html' για να βρείτε πως να το γράψετε."
+            title: "Η δομή της σελίδας",
+            description: "Δημιουργήστε τη δομή της HTML σελίδας.",
+            information: "❗Χρησιμοποιήστε τα elements που μάθαμε: <html>...</html>, <head>...</head>, <body>...</body>"
         },
         {
-            title: "Λίστα",
-            description: "Προσθέστε μια αριθμημένη λίστα όπου σε σειρά προτεραιότητας, καταγράφετε τις αγαπημένες σας δραστηριότητες. Χρησιμοποιήστε τα elements 'ol' και 'li'."
+            title: "Το element 'title'",
+            description: "Βάλτε τίτλο πάνω στο tab της σελίδας σας.",
+            information: "❗Πως: προσθέστε το element 'title' στο head κομμάτι της σελίδας."
+        },
+        {
+            title: "Επικεφαλίδα",
+            description: "Προσθέστε μια Επικεφαλίδα στο περιεχόμενο της σελίδας. Χρησιμοποιήστε το element 'h2' στο body κομμάτι της σελίδας."
+
         }
     ],
     model(){

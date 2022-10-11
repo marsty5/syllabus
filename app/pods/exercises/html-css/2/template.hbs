@@ -4,7 +4,9 @@
   <p class="section">
     Steps
   </p>
-  {{#each model.steps key="@index" as |step index|}}
+
+  <div class="exercise-steps">
+    {{#each model.steps key="@index" as |step index|}}
       {{#exercise-steps}}
         {{#step-number}}{{add-one index}}{{/step-number}}
         {{#step-title}}{{step.title}}{{/step-title}}
@@ -16,6 +18,7 @@
         {{/step-information}}
       {{/exercise-steps}}
     {{/each}}
+  </div>
 </aside>
 
 <main class="site-main">

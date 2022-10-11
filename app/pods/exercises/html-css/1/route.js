@@ -3,24 +3,17 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            description: "Τώρα βρισκόμαστε μέσα στο αρχείο index.html",
-            information: ""
+            title: "Δημιουργήστε τους φακέλους της ιστοσελίδας μας",
+            description: "Δείτε τη πρώτη εικόνα δεξία 👉"
         },
         {
-            title: "Η δομή της σελίδας",
-            description: "Δημιουργήστε τη δομή της HTML σελίδας.",
-            information: "❗Χρησιμοποιήστε τα elements που μάθαμε: <html>...</html>, <head>...</head>, <body>...</body>"
+            title: "Ανοίξτε την εφαρμογή Sublime ",
+            description: "Διπλό κλικ στο εικονίδιο του Sublime."
         },
         {
-            title: "Το element 'title'",
-            description: "Βάλτε τίτλο πάνω στο tab της σελίδας σας.",
-            information: "❗Πως: προσθέστε το element 'title' στο head κομμάτι της σελίδας."
+            title: "Ανοίξτε το φάκελο της ιστοσελίδας μέσα στο Sublime",
+            description: "Ακολουθήστε τις οδηγίες στην δεύτερη και τρίτη εικόνα δεξία 👉",
         },
-        {
-            title: "Επικεφαλίδα",
-            description: "Προσθέστε μια Επικεφαλίδα στο περιεχόμενο της σελίδας. Χρησιμοποιήστε το element 'h2' στο body κομμάτι της σελίδας."
-
-        }
     ],
     model(){
         return {

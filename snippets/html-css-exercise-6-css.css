@@ -1,22 +1,19 @@
-/* This is comment */
-/*
-h3{
-  color: red;
+h2{
+  color: purple;
 }
+
+ol{
+  font-weight: bold;
+}
+
 li{
-  color: blue;
-}
-*/
-
-
-.emphasize-title {
-  color: red;
-  font-size: 50px;
-}
-.winter{
-  color: gray;
-}
-.summer{
-  color:orange;
+  color: green;
 }
 
+form{
+  border: solid 2px purple;
+}
+
+body{
+  text-align: center;
+}
