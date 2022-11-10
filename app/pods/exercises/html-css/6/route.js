@@ -8,7 +8,7 @@ export default Ember.Route.extend({
         },
         {
             title: "Συνδέστε τα html και css αρχεία σας!",
-            description: "Στο html αρχέιο, μέσα στο head element, προσθέστε το element <link href='./css/style.css' rel='stylesheet'>"
+            description: "Στο html αρχείο, μέσα στο head element, προσθέστε το element <link href='./css/style.css' rel='stylesheet'>"
         },
         {
             title: "Βάρτε χρώμα στην επικεφαλίδα",
