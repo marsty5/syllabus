@@ -4,7 +4,7 @@ export default Ember.Route.extend({
     steps: [
         {
             title: "Επικεντρωνόμστε στην αριστερά στήλη!",
-            description: ""
+            description: "Η αριστερά στήλη έχει 3 κουτιά. To boostrap μας παρέχει κώδικα για Αυτά λέγονται 'cards' "
         },
         {
             title: "Δημιουργία της πρώτης κάρτας",

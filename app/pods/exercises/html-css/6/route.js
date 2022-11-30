@@ -23,12 +23,8 @@ export default Ember.Route.extend({
             description: "❓Υπάρχουν δύο τρόποι. Μπορείτε να τους βρείτε;"
         },
         {
-            title: "Βάλτε τη φόρμα σε κουτί (boarder)!",
-            description: "❓Πως θα το ξάξετε στο Google;"
-        },
-        {
-            title: "Κάντε όλο το περιεχόμενο centered",
-            description: "Αλλάξτε το χρώμα όλων των αντικειμένων της λίστας σε πράσινο."
+            title: "Κάντε την επικεφαλίδα centered",
+            description: "❗Ψάξτε στο Google το εξής: 'how to center an element css"
         }
     ],
     model(){

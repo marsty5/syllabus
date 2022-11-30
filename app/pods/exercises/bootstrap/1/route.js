@@ -14,8 +14,8 @@ export default Ember.Route.extend({
         },
         {
             title: "Σύνδεση με το Bootstrap",
-            description: "Προσθέστε δύο elements 'link' στο <head> για να συνδεθεί με το κώδικα του Bootstrap.",
-            information: "❗Μπορείτε να βρείτε τα 2 links για το Bootstrap στα 'Χρήσιμες Σελίδες' (από το μενού της σελίδας μας)."
+            description: "Προσθέστε το element 'link' στο <head> για να συνδεθεί με το κώδικα του Bootstrap.",
+            information: "❗Μπορείτε να βρείτε το link για το Bootstrap στη σελίδα 'Χρήσιμες Σελίδες' (κοιτάξτε πάνω στο μενού της σελίδας μας)."
         },
         {
             title: "Το container",
