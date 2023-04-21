@@ -3,27 +3,27 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Επικεντρωνόμστε στην αριστερά στήλη!",
-            description: "Η αριστερά στήλη έχει 3 κουτιά. Θα χρησιμοποιήσουμε το class 'card' από το boostrap, για να μετατρέψουμε αυτά τα κουτιά σε κάρτες."
+            title: "Now we're focusing on the left column of the website!",
+            description: "The left column had 3 boxes. We're going to use a class called 'card' from boostrap, to give these boxes the styling from bootstrap."
         },
         {
-            title: "Δημιουργία της πρώτης κάρτας",
+            title: "Create the first card",
             description: "",
-            information: "❗Ψάξτε 'card boostrap' στο Google και ανοίξτε τη σελίδα του getbootstrap για να βρείτε πως να το γράψετε."
+            information: "❗Google 'card boostrap' and open the getbootstrap website to find information on how to write it."
         },
         {
-            title: "Μικρά Εικονίδια",
-            description: "Τα μικρά εικονίδια του Linkedin, Instagram κλπ, προέρχονται από το σελίδα 'font awesome'.",
-            information: "❗Ψάξτε στο Google 'linkedin font awesome' και ανοίξτε τη σελίδα από το fontawesome."
+            title: "Small icons",
+            description: "The small icons for Linkedin, Instagram etc, come from another css file that's available on the interest, called 'font awesome'.",
+            information: "❗Google 'linkedin font awesome' and open the fontawesome website."
         },
         {
-            title: "Δημιουργία της δεύτερης κάρτας",
-            description: "Πηγαίνεται στο https://fontawesome.com/ και βρείτε τα εικονίδια που θέλετε να χρησιμοιποιήσετε."
+            title: "Create the second card",
+            description: "Go to https://fontawesome.com/ and find the small icons that you want to use."
         },
         {
-            title: "Δημιουργία της τρίτης κάρτας",
-            description: "Η τρίτη κάρτα περιέχει 'progress bars'.",
-            information: "❗Ψάξτε στο Google 'progress bars bootstrap' και ανοίξτε τη σελίδα από το boostrap."
+            title: "Create the third card",
+            description: "The third card contains elements with a class called 'progress bars'.",
+            information: "❗Google 'progress bars bootstrap' and open the boostrap page to find more information."
                     },
     ],
     model(){

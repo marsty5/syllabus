@@ -10,7 +10,7 @@ export default Ember.Route.extend({
     steps: [
         {
             title: '',
-            description: 'Μπορείτε να βρείτε όλο το κώδικα της σελίδας στο HTML tab.'
+            description: 'On this tab, you can find the whole code of the HTML file.'
         }
     ],
     model(){

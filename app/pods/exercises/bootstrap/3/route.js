@@ -3,15 +3,15 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Επικεντρωνόμστε στην δεξιά στήλη!",
+            title: "We're now focusing on the right column!",
             description: ""
         },
         {
-            title: "Δημιουργία της πρώτης κάρτας",
+            title: "Create the first card",
             description: ""
         },
         {
-            title: "Δημιουργία της δεύτερης κάρτας",
+            title: "Create the second card",
             description: ""
         }
     ],

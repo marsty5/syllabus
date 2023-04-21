@@ -10,13 +10,13 @@ export default Ember.Route.extend({
     steps: [
         {
             title: "Navigation bar",
-            description: "Προσθέστε τη γραμμή του μενού, στην αρχή της σελίδας",
+            description: "Add a row to represent the menu at the top of the page.",
             information: ""
         },
         {
             title: "Footer",
-            description: "Προσθέστε τη γραμμή του footer, στο τέλος της σελίδας.",
-            information: "❗Χρησιμοποιήστε το 'card-footer' class μέσα στη κάρτα που θέλετε."
+            description: "Add a row to represent the footer at the bottom of the page.",
+            information: ""
         }
     ],
     model(){

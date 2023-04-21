@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            description: "Now, we're going to write code in index.html",
+            description: "Now, we're going to write code in index.html inside the 'website-1' folder",
         },
         {
             title: "The structure of the website",
