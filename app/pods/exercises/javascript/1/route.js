@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Έρχεται σύντομα',
+            title: "It's coming soon",
             description: ''
         }
     ],

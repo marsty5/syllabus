@@ -4,16 +4,16 @@ export default Ember.Route.extend({
     steps: [
         {
             title: "Youtube video",
-            description: "Προσθέστε ένα youtube video της αγαπημένης σας δραστηριότητας.",
-            information: "❗Ψάξτε το πως στο Google!"
+            description: "Add a youtube video of your favorite activity.",
+            information: "❗Search Google on how to do it!"
         },
         {
-            title: "Προσθέστε ένα hyperlink 'Ανοίξτε το βίντεο στο youtube'.",
-            description: "Συνδιάστε το element 'p' με το element 'α' για να το καταφέρετε. Χρησιμοποιήστε το Google!"
+            title: "Add a hyperlink 'Open this video on youtube'.",
+            description: "Connect the element 'p' with the element 'α' to achieve this. Google it!"
         },
         {
-            title: "Έξτρα! Προσθέστε μια εικόνα gif",
-            description: "Μπορείτε να βρείτε gifs κάτω από τις 'Χρήσιμες Σελίδες'"
+            title: "Extra! Add an image gif",
+            description: "You can find how to add gifs under the 'Useful Links' page"
         }
     ],
     model(){

@@ -27,14 +27,14 @@
     <div class="browser-dot"></div>
     <div class="browser-dot"></div>
 
-    {{nav-tabs action='selectTab' tab=model.tab css=false js=false}}
+    {{nav-tabs action='selectTab' tab=model.tab js=false}}
   </div>
   {{#if (eq model.tab 'result')}}
     {{exercise-result url='/result/html-css/5'}}
   {{else if (eq model.tab 'html')}}
     {{code-snippet name="html-css-exercise-5-html.hbs"}}
   {{else if (eq model.tab 'css')}}
-
+    {{code-snippet name="html-css-exercise-5-css.css"}}
   {{else if (eq model.tab 'js')}}
 
   {{/if}}

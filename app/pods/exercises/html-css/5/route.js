@@ -3,29 +3,28 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Φόρμα",
-            description: "Δημιουργήστε μια φόρμα με το element 'form'.",
-            information: ""
+            title: "Create a CSS file!",
+            description: "Within the css folder, create a file with the name style.css."
         },
         {
-            title: "Text input",
-            description: "Προσθέστε δύο πεδία δεδομένων που δέχονται κείμενο, για να ζητήσετε το όνομα και επίθετο. Χρησιμοποιήστε τα elements 'p' και 'input' για να τα καταφέρετε.",
-            information: "❗Ψάξτε στο Google το εξής: 'html input types', και βρέστε πως να γράψετε το element 'input', τύπου 'text', στο html αρχείο σας!"
+            title: "Connect the html and css files!",
+            description: "Within the html file, within the head element, add the element <link href='./css/style.css' rel='stylesheet'>"
         },
         {
-            title: "Checkbox input",
-            description: "Προσθέστε τρία πεδία δεδομένων για να προσφέρετε multiple-choice επιλογές για την αγαπημένη σας ταινία. ",
-            information: "❗Χρησιμοποιήστε το Google για να μάθετε πως να γράψετε το element 'input', τύπου 'checkbox', στο html αρχείο σας!"
+            title: "Add text color to the heading",
+            description: "Within css, add the element 'h2' and give it a purple color."
         },
         {
-            title: "Άλλοι τύποι input",
-            description: "Δοκιμάστε να βρείτε τους τύπους input που χρησιμοποιήθηκαν για το χρώμα και τηλέφωνο.",
-            information: "Πειραματιστείτε με διαφορετικούς τύπους του element 'input', με βάση το τι βρήκατε στο google."
+            title: "Make 'My activities' bold",
+            description: "❗Search in Google the following: 'how to make element bold css'"
         },
         {
-            title: "Submit input",
-            description: "Προσθέστε ένα submit button that submits the form above at the end (inside) of your form tag.",
-            information: ""
+            title: "Make numeric points green",
+            description: "❓There are 2 ways to do so. Can you find them?"
+        },
+        {
+            title: "Make the heading centered",
+            description: "❗Google it: 'how to center an element css"
         }
     ],
     model(){

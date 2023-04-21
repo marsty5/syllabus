@@ -3,16 +3,16 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: "Δημιουργήστε τους φακέλους της ιστοσελίδας μας",
-            description: "Δείτε τη πρώτη εικόνα δεξία 👉"
+            title: "Create our website folders",
+            description: "Follow the isntructions on the first two pictures on the right side 👉"
         },
         {
-            title: "Ανοίξτε την εφαρμογή Sublime ",
-            description: "Διπλό κλικ στο εικονίδιο του Sublime."
+            title: "Open the Sublime app",
+            description: "Double click on the Sublime icon on your computer."
         },
         {
-            title: "Ανοίξτε το φάκελο της ιστοσελίδας μέσα στο Sublime",
-            description: "Ακολουθήστε τις οδηγίες στην δεύτερη και τρίτη εικόνα δεξία 👉",
+            title: "Open the main folder of your website on Sublime",
+            description: "Follow the instructions on the 3rd picture 👉",
         },
     ],
     model(){

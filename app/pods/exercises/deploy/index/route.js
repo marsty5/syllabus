@@ -5,8 +5,8 @@ import Ember from 'ember';
 export default Ember.Route.extend({
     steps: [
         {
-            title: 'Ακολουθήστε τα βήματα στη δεξιά στήλη 👉',
-            description: 'Ξεκινήστε με τη δημιουργία του λογαριασμού σας στο https://github.com'
+            title: 'Follow the steps on the right side 👉',
+            description: 'Begin with creating an account on Github https://github.com'
         }
     ],
     model(){
