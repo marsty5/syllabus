@@ -1,6 +1,6 @@
 .app-container
   background: #1b2128
-  background: linear-gradient(#1b2128, #61758e)
+  background: linear-gradient(white, #98c1d9)
   background-attachment: fixed
   color: $text
   font-family: $family-primary
@@ -48,7 +48,7 @@
     &.active
       background: $active
       border-color: $active
-      color: $green
+      color: $active
   +from(600px)
     float: left
     margin-left: 20px !important
@@ -65,7 +65,7 @@
   a
     border: 1px solid $text
     border-radius: 3px
-    color: $active
+    color: $seriousblue
     display: inline-block
     font-weight: bold
     line-height: 24px
@@ -171,11 +171,11 @@
     text-align: center
     text-decoration: none
     &:hover
-      color: $green
+      color: $orange
     &:active
       box-shadow: inset 0 1px 2px rgba(black, .2)
     &.active
-      background: $green
+      background: $orange
       box-shadow: inset 0 1px 2px rgba(black, .4)
       color: white
       text-decoration: none
@@ -212,7 +212,7 @@
 
 .step-component
   background: white
-  background-image: linear-gradient(white, $background)
+  background-image: linear-gradient(white, $step-background)
   border-bottom: 1px solid $border-dark
   font-family: $family-secondary
   min-height: 50px
@@ -221,7 +221,7 @@
   position: relative
 
 .step-number
-  background: $background
+  background: $step-background
   border-radius: 290486px
   box-shadow: inset 0 2px 3px rgba(black, .1), inset 0 0 1px rgba(black, .2), 0 1px 0 0 white
   display: block
