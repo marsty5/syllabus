@@ -22,7 +22,11 @@ Router.map(function() {
       this.route('5');
       this.route('6');
     });
-    this.route('deploy', function() {});
+    this.route('deploy', function() {
+      this.route('1');
+      this.route('2');
+      this.route('3');
+    });
     this.route('bootstrap', function() {
       this.route('1');
       this.route('2');
@@ -58,7 +62,11 @@ Router.map(function() {
       this.route('6');
       this.route('7');
     });
-    this.route('deploy');
+    this.route('deploy', function() {
+      this.route('1');
+      this.route('2');
+      this.route('3');
+    });
   });
   this.route('links', {path: 'links'});
   this.route('extra-material');
