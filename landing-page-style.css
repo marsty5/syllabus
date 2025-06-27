@@ -1,0 +1,46 @@
+body {
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a") no-repeat;
+  background-size:cover;
+}
+
+.progress-bar{
+	background-color: orange;
+}
+
+
+.navbar {
+  background-color: #e16879 !important;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+.navbar-brand,
+.nav-item a {
+	color:white;
+}
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus,
+.navbar-brand:active:focus,
+
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a:focus,
+.nav-item a:active:focus {
+	color: yellow;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+}
+

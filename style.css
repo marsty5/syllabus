@@ -1,0 +1,33 @@
+html {
+  background-color: #f5f7f9;
+}
+
+body {
+  background: none;
+  color: #69707a;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+strong {
+  color: #222324;
+}
+
+img {
+  width: 200px;
+}
+
+.navbar {
+  background: #e16879;
+}
+
+
+.card {
+  border-color: #ccc;
+  margin: 20px 10px 20px 10px;
+  padding: 10px;
+}
+
+.card-title {
+  color: #e16879;
+  font-weight: 300;
+}
